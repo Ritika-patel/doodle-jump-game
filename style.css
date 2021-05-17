@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  .background-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: contain; 
+    position: relative;  
+    /*background-color: green; */
+
+
+
+}
+
+.container{
+    width: 400px;
+    height: 700px;
+    
+}
+
+.play{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;    
+}
+
+
+.play-btn{
+    height: 30px;
+    width: 180px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background: rgb(7, 158, 7);
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-family: 'Special Elite', cursive;
+    
+}
+  
+.play-btn:hover {
+    border: 2px solid #0b2e02;
+    background: linear-gradient(115.87deg, #33d113 0%, #0f5709 100%);
+  }
+
+
+  
+  .doodler {
+    width: 87px;
+    height: 85px;
+    background-image: url('images/doodler-guy.png');
+    position: absolute;
+    
+    
+  }
+  
+  .platform {
+    width: 85px;
+    height: 15px;
+    background-image: url('images/platform.png');
+    position: absolute;
+   
+  }
+
+  .grid {
+    width: 400px;
+    height: 700px;
+    background-image: url('images/background.png');
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 566px;
+    top:8px
+  }
+  
+  .grid2 {
+    width: 400px;
+    height: 700px;
+    background-image: url('images/home.png');
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 566px;
+    top:8px
+  }
+  
+  @media (max-width: 1290px){
+    .grid,
+    .grid2{
+      left:500px;
+    }
+  }
+
+  @media (max-width: 1166px){
+    .grid,
+    .grid2{
+      left:400px;
+    }
+  }
+
+  @media (max-width: 1150px){
+    .grid,
+    .grid2{
+      left:300px;
+    }
+  }
+  @media (max-width: 920px){
+    .grid,
+    .grid2{
+      left:250px;
+    }
+  }
+  @media (max-width: 800px){
+    .grid,
+    .grid2{
+      left:200px;
+    }
+  }
+
+  @media (max-width: 635px){
+    .grid,
+    .grid2{
+      left:50px;
+    }
+  }
